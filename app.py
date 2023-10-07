@@ -8,7 +8,7 @@ app = Flask(__name__)
 scope = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name(
-    'your-service-account-key.json', scope)
+    'your-service-account-key.json', scope)  # your-service-account-key.json get this from the google cloud platform
 client = gspread.authorize(creds)
 
 # Function to create an empty Google Sheet

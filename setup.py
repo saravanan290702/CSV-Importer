@@ -20,7 +20,7 @@ setup(
     name='stackit-hiring-assignment-saravanan290702',
 version='0.0.1',
 author='Saravanan',
-author_email='saravanan072002@gmail.com',
+author_email='...',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 
